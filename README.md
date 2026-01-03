@@ -1,94 +1,24 @@
-# Medical Insurance Price Prediction
+# 🏥 Medical Insurance Price Prediction
 
-This project is a *Machine Learning application* that predicts medical insurance costs based on user data. It includes a *Jupyter Notebook* for EDA and feature engineering, and a *Streamlit app* (\app.py) for interactive predictions.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/your-username/your-repo/main/assets/insurance.png" width="600">
+</p>
 
----
-
-## Project Structure
-
-project-folder/
-├─ data/                      ## medical insurance dataset
-├─ model_selection.ipynb        # Contains EDA, preprocessing, and feature engineering
-├─ app.py                # Streamlit app for user input and prediction
-├─ model/                # Saved trained model 
-├─ .gitignore            # file to prevent unnecessary and sensitive files
-└─ README.md             # Project documentation
+An *end-to-end Machine Learning project* to predict *medical insurance charges* based on user details.  
+The project covers *EDA, feature engineering, model selection, and a **simple Streamlit app* for predictions.
 
 ---
 
-## Features
+## 🚀 Project Overview
 
-- *Exploratory Data Analysis (EDA):* Analyze dataset and feature relationships.
-- *Feature Engineering:* Encode categorical variables, scale/normalize data, and prepare features for modeling.
-- *Model Comparison:* Trained multiple models to find the best one:
-  - Linear Regression
-  - Support Vector Machine (SVM)
-  - Random Forest Regressor
-  - XGBoost Regressor
-- *Simple Streamlit App:*  
-  - User inputs data directly in the app  
-  - Outputs predicted insurance price using the best model
+This project demonstrates a complete ML workflow:
+- Exploratory Data Analysis (EDA)
+- Feature Engineering
+- Training and comparing multiple regression models
+- Selecting the best-performing model
+- Using the model for insurance cost prediction
 
 ---
 
-## Installation
-
-1. Clone the repository:
-
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
-
-2. (Optional) Create a virtual environment:
-
-python -m venv venv
-# Linux / Mac
-source venv/bin/activate
-# Windows
-venv\Scripts\activate
-
-3. Install dependencies:
-
-pip install -r requirements.txt
-
----
-
-## Usage
-
-### Jupyter Notebook
-
-Open \model_selection.ipynb to explore the dataset, preprocess data, and see model training & comparison.
-
-### Streamlit App
-
-Run the app locally:
-
-streamlit run app.py
-
-- Enter your inputs in the app.
-- The predicted insurance price will be displayed.
-
----
-
-## Dataset
-
-- The project uses a *Medical Insurance dataset* with the following features:
-  - age
-  - sex
-  - bmi
-  - children
-  - smoker
-  - region
-  - charges (target variable)
-  - 
----
-
-## Model Selection
-
-The project trains and evaluates multiple models:
-
-- Linear Regression
-- Support Vector Machine
-- Random Forest Regressor
-- XGBoost Regressor     -- selected model
-
-The *best-performing model* is used in the Streamlit app for real-time predictions.
+## 📂 Folder Structure
+main-folder/ │ ├── data/ │   └── insurance.csv              # Dataset │ ├── model/ │   └── trained_model.pkl          # Saved trained model │ ├── model_selection.ipynb          # EDA, preprocessing & model comparison ├── .gitignore                     # Ignored unnecessary files └── README.md                      # Project documentation
