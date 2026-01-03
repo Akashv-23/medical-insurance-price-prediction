@@ -21,18 +21,19 @@ This project demonstrates a complete ML workflow:
 ---
 
 ## 📂 Folder Structure
-
+```
 medical-insurance-price-prediction/
-- data/
--  └── insurance.csv
-- notebooks/
-   └── model_selection.ipynb
-- models/
-   └── insurance_model.pkl
-- app.py
-- requirements.txt
-- .gitignore
-- README.md
+├── data/
+│   └── insurance.csv
+├── notebooks/
+│   └── model_selection.ipynb
+├── models/
+│   └── insurance_model.pkl
+├── app.py
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
 ## 📊 Dataset Information
 
