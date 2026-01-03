@@ -72,6 +72,17 @@ The following models were trained and evaluated:
 
 ✅ The best-performing model is saved and used for prediction.
 
+---
+
+## 🛠 Tech Stack
+
+- Python
+- Pandas, NumPy, Matplotlib, Seaborn
+- Scikit-learn
+- XGBoost
+- Jupyter Notebook
+- Streamlit
+
 ---## 📓 Jupyter Notebook
 
 The notebook *model_selection.ipynb* includes:
@@ -92,11 +103,15 @@ The project includes a .gitignore file to exclude:
 
 ---
 
-## 🛠 Tech Stack
+# Create & activate virtual environment
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# macOS / Linux
+source venv/bin/activate
 
-- Python
-- Pandas, NumPy, Matplotlib, Seaborn
-- Scikit-learn
-- XGBoost
-- Jupyter Notebook
-- Streamlit
+# Install dependencies
+pip install -r requirements.txt
+
+# Run Streamlit app
+streamlit run app.py
