@@ -6,7 +6,6 @@ This project is a *Machine Learning application* that predicts medical insurance
 
 ## Project Structure
 
-\\\`
 project-folder/
 ├─ data/                      ## medical insurance dataset
 ├─ model_selection.ipynb        # Contains EDA, preprocessing, and feature engineering
@@ -14,7 +13,6 @@ project-folder/
 ├─ model/                # Saved trained model 
 ├─ .gitignore            # file to prevent unnecessary and sensitive files
 └─ README.md             # Project documentation
-\\\`
 
 ---
 
@@ -37,26 +35,20 @@ project-folder/
 
 1. Clone the repository:
 
-\\\`bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
 cd YOUR_REPO
-\\\`
 
 2. (Optional) Create a virtual environment:
 
-\\\`bash
 python -m venv venv
 # Linux / Mac
 source venv/bin/activate
 # Windows
 venv\Scripts\activate
-\\\`
 
 3. Install dependencies:
 
-\\\`bash
 pip install -r requirements.txt
-\\\`
 
 ---
 
@@ -64,15 +56,13 @@ pip install -r requirements.txt
 
 ### Jupyter Notebook
 
-Open \notebook.ipynb\ to explore the dataset, preprocess data, and see model training & comparison.
+Open \model_selection.ipynb to explore the dataset, preprocess data, and see model training & comparison.
 
 ### Streamlit App
 
 Run the app locally:
 
-\\\`bash
 streamlit run app.py
-\\\`
 
 - Enter your inputs in the app.
 - The predicted insurance price will be displayed.
@@ -82,14 +72,14 @@ streamlit run app.py
 ## Dataset
 
 - The project uses a *Medical Insurance dataset* with the following features:
-  - \age\
-  - \sex\
-  - \bmi\
-  - \children\
-  - \smoker\
-  - \region\
-  - \charges\ (target variable)
-
+  - age
+  - sex
+  - bmi
+  - children
+  - smoker
+  - region
+  - charges (target variable)
+  - 
 ---
 
 ## Model Selection
@@ -99,6 +89,6 @@ The project trains and evaluates multiple models:
 - Linear Regression
 - Support Vector Machine
 - Random Forest Regressor
-- XGBoost Regressor
+- XGBoost Regressor     -- selected model
 
 The *best-performing model* is used in the Streamlit app for real-time predictions.
