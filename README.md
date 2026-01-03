@@ -21,6 +21,7 @@ This project demonstrates a complete ML workflow:
 ---
 
 ## 📂 Folder Structure
+###
 medical-insurance-price-prediction/
 │
 ├── data/
@@ -36,6 +37,7 @@ medical-insurance-price-prediction/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
+###
 
 ## 📊 Dataset Information
 
