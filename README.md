@@ -89,16 +89,13 @@ The project includes a .gitignore file to exclude:
 - Virtual environments
 - Jupyter checkpoints
 - Trained model artifacts
-- OS & IDE specific files
-
-This keeps the repository clean and professional.
 
 ---
 
 ## 🛠 Tech Stack
 
 - Python
-- Pandas, NumPy
+- Pandas, NumPy, Matplotlib, Seaborn
 - Scikit-learn
 - XGBoost
 - Jupyter Notebook
