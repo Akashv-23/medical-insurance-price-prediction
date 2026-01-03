@@ -1,7 +1,7 @@
 # 🏥 Medical Insurance Price Prediction
 
 <p align="center">
-  <img src="image-front.jpg" width="1000">
+  <img src="image-front.jpg" width="500">
 </p>
 
 An *end-to-end Machine Learning project* to predict *medical insurance charges* based on user details.  
