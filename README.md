@@ -104,16 +104,16 @@ The project includes a .gitignore file to exclude:
 ---
 
 # Create & activate virtual environment
-```
 python -m venv venv
-- Windows
+
+# Windows
 venv\Scripts\activate
-- macOS / Linux
+
+# macOS / Linux
 source venv/bin/activate
 
-- Install dependencies
+# Install dependencies
 pip install -r requirements.txt
 
-- Run Streamlit app
+# Run Streamlit app
 streamlit run app.py
-```
